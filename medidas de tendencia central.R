@@ -1,0 +1,11 @@
+data1<-c(19,20,18,16,16,25,23,18,19,13)
+mean(data1)
+data2<-c(16,11,10,16,09,10,17,8,19)
+median(data2)
+library(modeest)
+data3<-c(4,8,4,6,8,6,7,7,7,8,10,9,7,6,10,8,5,9,6,3,7,6,4,7,6,9,7,4,7,6,8,8,9,11,8,7,10,8,5,7,7,6,5,10,8,9,7,5,6,5)
+moda <- mfv(data3)
+moda
+summary(data1)
+library(psych)
+describe(data1)
